@@ -4,32 +4,31 @@
   let messageTimer = null;
   let priority = 0;
   let messageArray = [
-    "你又来看我啦~",
-    "嗨～快来逗我玩吧！",
-    "拿小拳拳锤你胸口！"
+    "You came to see me again~",
+    "Hi~ Come and play with me!"
   ];
   let mouseoverMsg = [
-    "干嘛呢你，快把手拿开～～",
-    "鼠…鼠标放错地方了！",
-    "你要干嘛呀？",
-    "喵喵喵？",
-    "怕怕(ノ≧∇≦)ノ",
-    "非礼呀！救命！",
-    "这样的话，只能使用武力了！",
-    "我要生气了哦",
-    "不要动手动脚的！",
-    "真…真的是不知羞耻！",
+    "What are you doing, take your hand away~~",
+    "Mouse... The mouse is misplaced!",
+    "What are you doing?",
+    "Meow meow meow?",
+    "Eh (ノ≧∇≦)ノ",
+    "Indecent! Help!",
+    "In this case, force can only be used!",
+    "Oh, I'm getting angry",
+    "Don't do anything!",
+    "Really... Really shameless!",
     "Hentai！"
   ];
   let clickMsg = [
-    "是…是不小心碰到了吧…",
-    "萝莉控是什么呀？",
-    "你看到我的小熊了吗？",
-    "再摸的话我可要报警了！⌇●﹏●⌇",
-    "110 吗，这里有个变态一直在摸我(ó﹏ò｡)",
-    "不要摸我了，我会告诉老婆来打你的！",
-    "干嘛动我呀！小心我咬你！",
-    "别摸我，有什么好摸的！"
+    "Yes... I bumped into it accidentally...",
+    "What do you want, lolicon?",
+    "Did you see my little bear?",
+    "I will call the police if you touch me again!⌇●﹏●⌇",
+    "911, there is a pervert who has been touching me(ó﹏ò｡)",
+    "Stop touching me, I will tell my wife to hit you!",
+    "Why do you move me! Be careful I bit you!",
+    "Don't touch me, there's nothing to touch!"
   ];
 
   window.addEventListener("mousemove", () => userAction = true);
